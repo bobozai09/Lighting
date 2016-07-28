@@ -22,9 +22,9 @@ import com.zicai.bobozai09.lighting.R;
 
 public class MyFragmentActivity extends FragmentActivity {
     private FragmentTabHost mTabhost;
-    private Class FragmentArray[] = {HomeFragment.class, MessageFragment.class, MineFragment.class,ReportFragment.class};
-    private int iconArray[] = { R.drawable.jiasu_d,R.drawable.zhanghu_d,R.drawable.bangzhu_d, R.drawable.daoahang_d};
-    private String titleArray[] = {"加速", "账户", "帮助","导航"};
+    private Class FragmentArray[] = {HomeFragment.class, ProductFragment.class, SceneFragment.class,ShopFragment.class,MoreFragment.class};
+    private int iconArray[] = { R.drawable.jiasu_d,R.drawable.zhanghu_d,R.drawable.bangzhu_d, R.drawable.daoahang_d, R.drawable.daoahang_d};
+    private String titleArray[] = {"首页", "产品", "场景","购物车" ,"更多"};
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
