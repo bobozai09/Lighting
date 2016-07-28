@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_prdouct_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zicai.bobozai09.lighting.com.zicai.Fragment.PrdouctDetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+                <TextView
+                    android:background="#3FF01F"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="View Pager的区域"/>
+                <TextView
+                    android:background="#AEEE0F"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="Prices 的区域"/>
+                <TextView
+                    android:background="#DCCC0F"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:text="参数 的区域"/>
+
+                <TextView
+                    android:background="#DFFF0F"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:text="图像 的区域"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_nav"
+            android:background="#A7A7A7"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal" />
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>
