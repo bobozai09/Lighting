@@ -5,9 +5,10 @@
     tools:context="com.zicai.bobozai09.lighting.com.zicai.Fragment.ProductFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <Button
+        android:id="@+id/button"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:text="点击进入产品详情"/>
 
 </FrameLayout>
